@@ -1,1 +1,0 @@
-# studynet_django
