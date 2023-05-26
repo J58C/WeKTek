@@ -63,3 +63,6 @@ export default {
     }
 }
 </script>
+
+<style scoped src="../assets/css/Author.css">
+</style>

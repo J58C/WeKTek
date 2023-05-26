@@ -187,3 +187,6 @@ export default {
     }
 }
 </script>
+
+<style scoped src="../assets/css/Course.css">
+</style>

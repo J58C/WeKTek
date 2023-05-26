@@ -143,3 +143,6 @@ export default {
     }
 }
 </script>
+
+<style scoped src="../assets/css/dashboard/CreateCourse.css">
+</style>
