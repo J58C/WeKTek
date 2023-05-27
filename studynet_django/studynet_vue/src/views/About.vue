@@ -13,13 +13,11 @@
 </template>
 
 <script>
+import '../assets/css/About.css'
+
 export default {
   mounted() {
     document.title = 'About | StudyNet'
   }
 }
 </script>
-
-<style scoped> 
-  @import "../assets/css/About.css"
-</style>
