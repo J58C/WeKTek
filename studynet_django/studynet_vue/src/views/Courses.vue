@@ -59,7 +59,7 @@
 
 <script>
 import axios from 'axios'
-
+import '../assets/css/Courses.css'
 import CourseItem from '@/components/CourseItem.vue'
 
 export default {
@@ -113,7 +113,3 @@ export default {
     }
 }
 </script>
-
-<style scoped>
-    @import "../assets/css/Courses.css"
-</style>
