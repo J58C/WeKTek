@@ -75,6 +75,3 @@ export default {
     }
 }
 </script>
-
-<style scoped src="../assets/css/dashboard/MyAccount.css">
-</style>
