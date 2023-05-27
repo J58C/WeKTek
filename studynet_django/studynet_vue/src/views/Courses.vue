@@ -59,13 +59,7 @@
 
 <script>
 import axios from 'axios'
-<<<<<<< HEAD
-
 import '../assets/css/Courses.css'
-
-=======
-import '../assets/css/Courses.css'
->>>>>>> 11542cd4a3840218f6e8186ca044810567dc786f
 import CourseItem from '@/components/CourseItem.vue'
 
 export default {
@@ -118,8 +112,4 @@ export default {
         }
     }
 }
-<<<<<<< HEAD
 </script>
-=======
-</script>
->>>>>>> 11542cd4a3840218f6e8186ca044810567dc786f

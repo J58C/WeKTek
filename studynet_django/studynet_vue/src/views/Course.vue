@@ -89,13 +89,7 @@
 
 <script>
 import axios from 'axios'
-<<<<<<< HEAD
-
 import '../assets/css/Course.css'
-
-=======
-import '../assets/css/Course.css'
->>>>>>> 11542cd4a3840218f6e8186ca044810567dc786f
 import CourseComment from '@/components/CourseComment'
 import AddComment from '@/components/AddComment'
 import Quiz from '@/components/Quiz'
@@ -192,8 +186,4 @@ export default {
         }
     }
 }
-<<<<<<< HEAD
 </script>
-=======
-</script>
->>>>>>> 11542cd4a3840218f6e8186ca044810567dc786f

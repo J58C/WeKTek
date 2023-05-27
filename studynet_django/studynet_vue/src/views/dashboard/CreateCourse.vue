@@ -88,8 +88,6 @@
 import axios from 'axios'
 import '../../assets/css/dashboard/CreateCourse.css'
 
-import '../../assets/css/dashboard/CreateCourse.css'
-
 export default {
     data() {
         return {

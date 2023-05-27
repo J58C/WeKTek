@@ -64,8 +64,6 @@
 import axios from 'axios'
 import '../assets/css/Home.css'
 
-import '../assets/css/Home.css'
-
 import CourseItem from '@/components/CourseItem.vue'
 
 export default {
@@ -92,8 +90,4 @@ export default {
           })
   }
 }
-<<<<<<< HEAD
 </script>
-=======
-</script>
->>>>>>> 11542cd4a3840218f6e8186ca044810567dc786f
