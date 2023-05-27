@@ -114,5 +114,6 @@ export default {
 }
 </script>
 
-<style scoped src="../assets/css/Courses.css">
+<style scoped>
+    @import "../assets/css/Courses.css"
 </style>

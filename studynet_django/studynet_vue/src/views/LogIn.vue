@@ -121,5 +121,6 @@ export default {
 }
 </script>
 
-<style scoped src="../assets/css/LogIn.css">
+<style scoped>
+    @import "../assets/css/LogIn.css"
 </style>
