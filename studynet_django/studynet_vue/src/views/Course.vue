@@ -90,6 +90,8 @@
 <script>
 import axios from 'axios'
 
+import '../assets/css/Course.css'
+
 import CourseComment from '@/components/CourseComment'
 import AddComment from '@/components/AddComment'
 import Quiz from '@/components/Quiz'
@@ -187,6 +189,3 @@ export default {
     }
 }
 </script>
-
-<style scoped src="../assets/css/Course.css">
-</style>

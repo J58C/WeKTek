@@ -60,6 +60,7 @@
 
 <script>
 import axios from 'axios'
+import '../assets/css/SignUp.css'
 
 export default {
     data() {

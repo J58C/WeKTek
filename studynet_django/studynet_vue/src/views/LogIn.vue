@@ -53,7 +53,7 @@
 
 <script>
 import axios from 'axios'
-
+import '../assets/css/LogIn.css'
 export default {
     data() {
         return {
@@ -120,6 +120,3 @@ export default {
     }
 }
 </script>
-
-<style scoped src="../assets/css/LogIn.css">
-</style>
