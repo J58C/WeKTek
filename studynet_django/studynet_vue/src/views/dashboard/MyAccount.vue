@@ -30,7 +30,7 @@
 
 <script>
 import axios from 'axios'
-
+import '../../assets/css/dashboard/MyAccount.css'
 import CourseItem from '@/components/CourseItem.vue'
 
 import '../../assets/css/dashboard/MyAccount.css'

@@ -54,6 +54,10 @@
 <script>
 import axios from 'axios'
 import '../assets/css/LogIn.css'
+<<<<<<< HEAD
+=======
+
+>>>>>>> 11542cd4a3840218f6e8186ca044810567dc786f
 export default {
     data() {
         return {
@@ -119,4 +123,8 @@ export default {
         }
     }
 }
+<<<<<<< HEAD
 </script>
+=======
+</script>
+>>>>>>> 11542cd4a3840218f6e8186ca044810567dc786f
