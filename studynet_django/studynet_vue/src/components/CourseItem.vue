@@ -6,7 +6,7 @@
             </figure>
         </div>
 
-        <div class="card-content" style="background-color: #333; color: white;">
+        <div class="card-content" style="background-color: #444; color: white;">
             <div class="media">
                 <div class="media-content">
                     <p class="is-size-5">{{ course.title }}</p>

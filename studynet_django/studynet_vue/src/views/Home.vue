@@ -1,18 +1,18 @@
 <template>
   <div class="home">
     <div class="hero is-info is-medium">
-      <div class="hero-body has-text-centered">
+      <div class="hero-body has-text-centered" style="background-color: #222; color: white;">
         <h1 class="title">Welcome to [Nama webnya]</h1>
 
         <h2 class="subtitle">An online place for learning what you want</h2>
       </div>
     </div>
 
-    <section class="section">
+    <section class="section" style="background-color: #333; color: white;">
       <div class="container">
         <div class="columns is-multiline">
           <div class="column is-4">
-            <div class="box has-text-centered">
+            <div class="box has-text-centered" style="background-color: #444; color: white;">
               <span class="icon is-size-2 has-text-info"><i class="far fa-clock"></i></span>
 
               <h2 class="is-size-4 mt-4 mb-4">Study at your own pace</h2>
@@ -22,7 +22,7 @@
           </div>
 
           <div class="column is-4">
-            <div class="box has-text-centered">
+            <div class="box has-text-centered" style="background-color: #444; color: white;">
               <span class="icon is-size-2 has-text-info"><i class="far fa-comments"></i></span>
 
               <h2 class="is-size-4 mt-4 mb-4">Study with others</h2>
@@ -32,7 +32,7 @@
           </div>
 
           <div class="column is-4">
-            <div class="box has-text-centered">
+            <div class="box has-text-centered" style="background-color: #444; color: white;">
               <span class="icon is-size-2 has-text-info"><i class="fas fa-home"></i></span>
 
               <h2 class="is-size-4 mt-4 mb-4">Study from your home</h2>
@@ -62,8 +62,6 @@
 
 <script>
 import axios from 'axios'
-//import '../assets/css/Home.css'
-
 import CourseItem from '@/components/CourseItem.vue'
 
 export default {
