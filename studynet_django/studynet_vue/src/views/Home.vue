@@ -62,7 +62,7 @@
 
 <script>
 import axios from 'axios'
-import '../assets/css/Home.css'
+//import '../assets/css/Home.css'
 
 import CourseItem from '@/components/CourseItem.vue'
 
