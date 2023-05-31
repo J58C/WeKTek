@@ -3,14 +3,14 @@
         <div class="field">
             <label class="label">Name</label>
             <div class="control">
-                <input type="text" class="input" v-model="comment.name">
+                <input type="text" class="input" v-model="comment.name" style="background-color: #555; color:whitesmoke">
             </div>
         </div>
 
         <div class="field">
             <label class="label">Content</label>
             <div class="control">
-                <textarea class="textarea" v-model="comment.content"></textarea>
+                <textarea class="textarea" v-model="comment.content" style="background-color: #555; color:whitesmoke"></textarea>
             </div>
         </div>
 
@@ -24,7 +24,7 @@
 
         <div class="field">
             <div class="control">
-                <button class="button is-link">Submit</button>
+                <button class="button is-link"  style="background-color: #555; color:whitesmoke">Submit</button>
             </div>
         </div>
     </form>

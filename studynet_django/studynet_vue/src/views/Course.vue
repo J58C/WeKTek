@@ -34,8 +34,8 @@
                             <template v-if="activeLesson">
                                 <h2>{{ activeLesson.title }}</h2>
 
-                                <span class="tag is-warning" v-if="activity.status == 'started'" @click="markAsDone">Started (mark as done)</span>
-                                <span class="tag is-success" v-else>Done</span>
+                                <span class="tag is-warning" v-if="activity.status == 'started'" @click="markAsDone"  style="background-color: #555; color:whitesmoke">Started (mark as done)</span>
+                                <span class="tag is-success" v-else  style="background-color: #666; color:whitesmoke">Done</span>
 
                                 <hr>
                                 
