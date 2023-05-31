@@ -1,13 +1,13 @@
 <template>
-    <div class="about">
+    <div class="about" >
         <div class="hero is-info">
             <div class="hero-body has-text-centered">
                 <h1 class="title">Create course</h1>
             </div>
         </div>
 
-        <section class="section">
-            <div class="mb-6 px-6 py-4 has-background-grey-lighter">
+        <section class="section" >
+            <div class="mb-6 px-6 py-4"  style="background-color: #333;">
                 <h2 class="subtitle">Meta information</h2>
 
                 <div class="field">
@@ -25,7 +25,7 @@
                     <textarea class="textarea" v-model="form.long_description"></textarea>
                 </div>
 
-                <div class="field">
+                <div class="field" >
                     <div class="select is-multiple">
                         <select multiple size="10" v-model="form.categories">
                             <option 
@@ -40,7 +40,7 @@
                 </div>
             </div>
 
-            <div class="mb-6 px-6 py-4 has-background-grey-lighter">
+            <div class="mb-6 px-6 py-4" style="background-color: #333;" >
                 <h2 class="subtitle">Lessons</h2>
 
                 <div
