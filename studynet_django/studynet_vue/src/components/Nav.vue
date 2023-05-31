@@ -1,14 +1,14 @@
 <template>
-    <nav class="navbar is-info" role="navigation" aria-label="main naviation" style="min-height: 5rem;">
+    <nav class="navbar is-info" role="navigation" aria-label="main naviation" style="min-height: 5rem; background-color: black; color: white;">
         <div class="navbar-brand">
-            <router-link class="navbar-item is-size-4" to="/">[Nama webnya]</router-link>
+            <router-link class="navbar-item is-size-4" to="/" style="background-color: black; color: white;">[Nama webnya]</router-link>
         </div>
 
         <div id="navbar-item" class="navbar-menu">
             <div class="navbar-start">
-                <router-link to="/" class="navbar-item">Home</router-link>
-                <router-link to="/about" class="navbar-item">About</router-link>
-                <router-link to="/courses" class="navbar-item">Courses</router-link>
+                <router-link to="/" class="navbar-item" style="background-color: black; color: white;">Home</router-link>
+                <router-link to="/about" class="navbar-item" style="background-color: black; color: white;">About</router-link>
+                <router-link to="/courses" class="navbar-item" style="background-color: black; color: white;">Courses</router-link>
             </div>
 
             <div class="navbar-end">
@@ -20,8 +20,8 @@
                         </template>
 
                         <template v-else>
-                            <router-link to="/sign-up" class="button is-primary"><strong>Sign up</strong></router-link>
-                            <router-link to="/log-in" class="button is-light">Log in</router-link>
+                            <router-link to="/sign-up" class="button is-primary" style="background-color: #333333; color: white;"><strong>Sign up</strong></router-link>
+                            <router-link to="/log-in" class="button is-light" style="background-color: #333333; color: white;">Log in</router-link>
                         </template>
                     </div>
                 </div>
