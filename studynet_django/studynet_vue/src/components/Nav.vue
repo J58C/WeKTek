@@ -15,13 +15,13 @@
                 <div class="navbar-item">
                     <div class="buttons">
                         <template v-if="$store.state.user.isAuthenticated">
-                            <router-link to="/dashboard/create-course" class="button is-primary">Create course</router-link>
-                            <router-link to="/dashboard/my-account" class="button is-info">My account</router-link>
+                            <router-link to="/dashboard/create-course" class="button is-primary" style="background-color: #555; color: white;">Create course</router-link>
+                            <router-link to="/dashboard/my-account" class="button is-info" style="background-color: #555; color: white;">My account</router-link>
                         </template>
 
                         <template v-else>
-                            <router-link to="/sign-up" class="button is-primary" style="background-color: #333333; color: white;"><strong>Sign up</strong></router-link>
-                            <router-link to="/log-in" class="button is-light" style="background-color: #333333; color: white;">Log in</router-link>
+                            <router-link to="/sign-up" class="button is-primary" style="background-color: #333; color: white;"><strong>Sign up</strong></router-link>
+                            <router-link to="/log-in" class="button is-light" style="background-color: #333; color: white;">Log in</router-link>
                         </template>
                     </div>
                 </div>

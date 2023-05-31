@@ -6,18 +6,19 @@
             </div>
         </div>
 
-        <section class="section">
+        <section class="section" style="background-color: #333; color: white;">
             <div class="container">
                 <div class="columns">
                     <div class="column is-2">
                         <aside class="menu">
-                            <p class="menu-label">Categories</p>
+                            <p class="menu-label" style="color: white;">Categories</p>
 
                             <ul class="menu-list">
                                 <li>
                                     <a 
                                         v-bind:class="{'is-active': !activeCategory}"
                                         @click="setActiveCategory(null)"
+                                        style="color: white;"
                                     >
                                         All courses
                                     </a>
@@ -27,7 +28,7 @@
                                     v-bind:key="category.id"
                                     @click="setActiveCategory(category)"
                                 >
-                                    <a>{{ category.title }}</a>
+                                    <a style="color: white;">{{ category.title }}</a>
                                 </li>
                             </ul>
                         </aside>
@@ -39,6 +40,7 @@
                                 class="column is-4"
                                 v-for="course in courses"
                                 v-bind:key="course.id"
+                                style="color: white;"
                             >
                                 <CourseItem :course="course" />
                             </div>
@@ -59,7 +61,6 @@
 
 <script>
 import axios from 'axios'
-import '../assets/css/Courses.css'
 import CourseItem from '@/components/CourseItem.vue'
 
 export default {
