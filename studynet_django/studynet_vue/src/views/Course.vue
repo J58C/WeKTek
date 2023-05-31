@@ -23,6 +23,7 @@
                             <li
                                 v-for="lesson in lessons"
                                 v-bind:key="lesson.id"
+                                
                             >
                                 <a @click="setActiveLesson(lesson)">{{ lesson.title }}</a>
                             </li>
@@ -89,7 +90,6 @@
 
 <script>
 import axios from 'axios'
-import '../assets/css/Course.css'
 import CourseComment from '@/components/CourseComment'
 import AddComment from '@/components/AddComment'
 import Quiz from '@/components/Quiz'

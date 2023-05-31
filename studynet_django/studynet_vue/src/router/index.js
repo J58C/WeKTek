@@ -58,6 +58,12 @@ const routes = [
     name: 'CreateCourse',
     component: CreateCourse
   }
+  ,
+  {
+    path: '/editor',
+    name: 'IDEEditor',
+    component: Editor
+  }
 ]
 
 const router = createRouter({
