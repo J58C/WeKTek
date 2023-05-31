@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer">
+    <footer class="footer" style="background-color: black; color: whitesmoke">
         <p class="has-text-centered">Copyright (c) 2021</p>
     </footer>
 </template>
