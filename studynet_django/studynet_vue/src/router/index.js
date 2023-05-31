@@ -7,7 +7,6 @@ import Editor from '../views/Editor.vue';
 import Courses from '../views/Courses.vue'
 import Course from '../views/Course.vue'
 import Author from '../views/Author.vue'
-
 import MyAccount from '../views/dashboard/MyAccount.vue'
 import CreateCourse from '../views/dashboard/CreateCourse.vue'
 

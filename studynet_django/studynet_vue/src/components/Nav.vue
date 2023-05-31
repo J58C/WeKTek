@@ -9,6 +9,7 @@
                 <router-link to="/" class="navbar-item" style="background-color: black; color: white;">Home</router-link>
                 <router-link to="/about" class="navbar-item" style="background-color: black; color: white;">About</router-link>
                 <router-link to="/courses" class="navbar-item" style="background-color: black; color: white;">Courses</router-link>
+                <router-link to="/editor" class="navbar-item" style="background-color: black; color: white;">Editor</router-link>
             </div>
 
             <div class="navbar-end">
