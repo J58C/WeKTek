@@ -12,27 +12,27 @@
 
                 <div class="field">
                     <label>Title</label>
-                    <input type="text" class="input" v-model="form.title">
+                    <input type="text" class="input" v-model="form.title" style="background-color: #555; color:whitesmoke">
                 </div>
 
                 <div class="field">
                     <label>Short description</label>
-                    <textarea class="textarea" v-model="form.short_description"></textarea>
+                    <textarea class="textarea" v-model="form.short_description" style="background-color: #555; color:whitesmoke"></textarea>
                 </div>
 
                 <div class="field">
                     <label>Long description</label>
-                    <textarea class="textarea" v-model="form.long_description"></textarea>
+                    <textarea class="textarea" v-model="form.long_description" style="background-color: #555; color:whitesmoke"></textarea>
                 </div>
 
                 <div class="field" >
                     <div class="select is-multiple">
-                        <select multiple size="10" v-model="form.categories">
+                        <select multiple size="10" v-model="form.categories" style="background-color: #555; color:whitesmoke">
                             <option 
                                 v-for="category in categories"
                                 v-bind:key="category.id"
                                 v-bind:value="category.id"
-                            >
+                                style="background-color: #555; color:whitesmoke">
                                 {{ category.title }}
                             </option>
                         </select>
@@ -73,12 +73,12 @@
                     <hr>
                 </div>
 
-                <button class="button is-primary" @click="addLesson()">Add lesson</button>
+                <button class="button is-primary" @click="addLesson()" style="background-color: #555; color:whitesmoke">Add lesson</button>
             </div>
 
             <div class="field buttons">
-                <button class="button is-success" @click="submitForm('draft')">Save as draft</button>
-                <button class="button is-info" @click="submitForm('review')">Submit for review</button>
+                <button class="button is-success" @click="submitForm('draft')" style="background-color: #555; color:whitesmoke">Save as draft</button>
+                <button class="button is-info" @click="submitForm('review')" style="background-color: #555; color:whitesmoke">Submit for review</button>
             </div>
         </section>
     </div>
