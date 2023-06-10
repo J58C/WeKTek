@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h3>{{ quiz.question }}</h3>
+    <div style="color: white;">
+        <h3 style="color: white;">{{ quiz.question }}</h3>
 
         <div class="control">
             <label class="radio">
@@ -21,15 +21,15 @@
         </div>
 
         <div class="control mt-4">
-            <button class="button is-info" @click="submitQuiz">Submit</button>
+            <button class="button is-info" @click="submitQuiz">Kumpulkan</button>
         </div>
 
         <template v-if="quizResult == 'correct'">
-            <div class="notification is-success mt-4">Correct :-D</div>
+            <div class="notification is-success mt-4">Betul</div>
         </template>
 
         <template v-if="quizResult == 'incorrect'">
-            <div class="notification is-danger mt-4">Wrong :-( Please try again!</div>
+            <div class="notification is-danger mt-4">Salah, mohon coba lagi</div>
         </template>
     </div>
 </template>

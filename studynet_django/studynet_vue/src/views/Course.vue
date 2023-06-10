@@ -17,7 +17,7 @@
             <div class="container">
                 <div class="columns content">
                     <div class="column is-2">
-                        <h2>Table of contents</h2>
+                        <h2 style="color: white;">Isi</h2>
 
                         <ul>
                             <li
@@ -77,9 +77,9 @@
                         </template>
 
                         <template v-else>
-                            <h2>Restricted access</h2>
+                            <h2>Akses terbatas</h2>
                             
-                            <p>You need to have an account to continue!</p>
+                            <p>Mohon Log In dulu untuk lanjut</p>
                         </template>
                     </div>
                 </div>

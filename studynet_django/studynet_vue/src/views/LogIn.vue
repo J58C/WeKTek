@@ -12,7 +12,7 @@
                 <div class="column is-4 is-offset-4">
                     <form v-on:submit.prevent="submitForm">
                         <div class="field">
-                            <label>Email</label>
+                            <label>E-mail</label>
                             <div class="control">
                                 <input type="email" class="input" v-model="username">
                             </div>
@@ -43,7 +43,7 @@
 
                     <hr>
 
-                    Or <router-link to="/sign-up">click here</router-link> to sign up!
+                    Or <router-link to="/sign-up">Klik di sini </router-link> untuk sign up!
                 </div>
             </div>
         </div>

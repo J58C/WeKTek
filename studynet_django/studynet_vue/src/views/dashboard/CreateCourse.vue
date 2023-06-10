@@ -2,26 +2,26 @@
     <div class="about" >
         <div class="hero is-info">
             <div class="hero-body has-text-centered">
-                <h1 class="title">Create course</h1>
+                <h1 class="title">Buat Kursus Baru</h1>
             </div>
         </div>
 
         <section class="section" >
             <div class="mb-6 px-6 py-4"  style="background-color: #333;">
-                <h2 class="subtitle">Meta information</h2>
+                <h2 class="subtitle">Detail Kursus</h2>
 
                 <div class="field">
-                    <label>Title</label>
+                    <label>Judul</label>
                     <input type="text" class="input" v-model="form.title" style="background-color: #555; color:whitesmoke">
                 </div>
 
                 <div class="field">
-                    <label>Short description</label>
+                    <label>Deskripsi singkat</label>
                     <textarea class="textarea" v-model="form.short_description" style="background-color: #555; color:whitesmoke"></textarea>
                 </div>
 
                 <div class="field">
-                    <label>Long description</label>
+                    <label>Detail</label>
                     <textarea class="textarea" v-model="form.long_description" style="background-color: #555; color:whitesmoke"></textarea>
                 </div>
 
@@ -41,17 +41,17 @@
             </div>
 
             <div class="mb-6 px-6 py-4" style="background-color: #333;" >
-                <h2 class="subtitle">Lessons</h2>
+                <h2 class="subtitle">Pembelajaran</h2>
 
                 <div
                     v-for="(lesson, index) in form.lessons"
                     v-bind:key="index"
                     class="mb-4"
                 >
-                    <h3 class="subtitle is-size-6">Lesson</h3>
+                    <h3 class="subtitle is-size-6">Pembelajaran</h3>
 
                     <div class="field">
-                        <label>Title</label>
+                        <label>Judul</label>
                         <input 
                             type="text" 
                             class="input" 
@@ -61,24 +61,24 @@
                     </div>
 
                     <div class="field">
-                        <label>Short description</label>
+                        <label>Deskripsi singkat</label>
                         <textarea class="textarea" v-model="lesson.short_description" :name="`form.lessons[${index}][short_description]`"></textarea>
                     </div>
 
                     <div class="field">
-                        <label>Long description</label>
+                        <label>Detail</label>
                         <textarea class="textarea" v-model="lesson.long_description" :name="`form.lessons[${index}][long_description]`"></textarea>
                     </div>
 
                     <hr>
                 </div>
 
-                <button class="button is-primary" @click="addLesson()" style="background-color: #555; color:whitesmoke">Add lesson</button>
+                <button class="button is-primary" @click="addLesson()" style="background-color: #555; color:whitesmoke">Tambahkan pembelajaran</button>
             </div>
 
             <div class="field buttons">
-                <button class="button is-success" @click="submitForm('draft')" style="background-color: #555; color:whitesmoke">Save as draft</button>
-                <button class="button is-info" @click="submitForm('review')" style="background-color: #555; color:whitesmoke">Submit for review</button>
+                <button class="button is-success" @click="submitForm('draft')" style="background-color: #555; color:whitesmoke">Simpan sebagai draf</button>
+                <button class="button is-info" @click="submitForm('review')" style="background-color: #555; color:whitesmoke">Ajukan</button>
             </div>
         </section>
     </div>

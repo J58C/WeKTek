@@ -2,12 +2,12 @@
   <div class="about">
     <div class="hero is-info">
       <div class="hero-body has-text-centered">
-        <h1 class="title">About</h1>
+        <h1 class="title">Tentang Kami</h1>
       </div>
     </div>
 
     <section class="section">
-      THis is the about page
+      [Masih kosong]
     </section>
   </div>
 </template>

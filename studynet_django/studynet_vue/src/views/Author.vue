@@ -19,8 +19,8 @@
 
                     <div class="column is-12">
                         <nav class="pagination">
-                            <a class="pagination-previous">Previous</a>
-                            <a class="pagination-next">Next</a>
+                            <a class="pagination-previous">Sebelumnya</a>
+                            <a class="pagination-next">Selanjutnya</a>
                         </nav>
                     </div>
                 </div>

@@ -10,7 +10,6 @@
 
 <script>
 import axios from 'axios'
-
 import Footer from '@/components/Footer'
 import Nav from '@/components/Nav'
 

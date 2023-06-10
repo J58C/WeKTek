@@ -2,7 +2,7 @@
     <div class="courses">
         <div class="hero is-info">
             <div class="hero-body has-text-centered">
-                <h1 class="title">Courses</h1>
+                <h1 class="title">Kursus</h1>
             </div>
         </div>
 
@@ -11,7 +11,7 @@
                 <div class="columns">
                     <div class="column is-2">
                         <aside class="menu">
-                            <p class="menu-label" style="color: white;">Categories</p>
+                            <p class="menu-label" style="color: white;">Kategori</p>
 
                             <ul class="menu-list">
                                 <li>
@@ -20,7 +20,7 @@
                                         @click="setActiveCategory(null)"
                                         style="color: white;"
                                     >
-                                        All courses
+                                        Semua Kursus
                                     </a>
                                 </li>
                                 <li

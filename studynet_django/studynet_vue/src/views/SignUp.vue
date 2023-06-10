@@ -12,7 +12,7 @@
                 <div class="column is-4 is-offset-4">
                     <form v-on:submit.prevent="submitForm">
                         <div class="field">
-                            <label>Email</label>
+                            <label>E-mail</label>
                             <div class="control">
                                 <input type="email" class="input" v-model="username">
                             </div>
@@ -26,7 +26,7 @@
                         </div>
 
                         <div class="field">
-                            <label>Repeat password</label>
+                            <label>Ulangi password</label>
                             <div class="control">
                                 <input type="password" class="input" v-model="password2">
                             </div>
@@ -50,7 +50,7 @@
 
                     <hr>
 
-                    Or <router-link to="/log-in">click here</router-link> to log in!
+                    Or <router-link to="/log-in">Klik di sini </router-link> untuk log in!
                 </div>
             </div>
         </div>

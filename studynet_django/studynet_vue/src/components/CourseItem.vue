@@ -16,7 +16,7 @@
             <div class="content">
                 <p>{{ course.short_description }}</p>
 
-                <router-link :to="{name: 'Course', params: {slug: course.slug}}">More</router-link>
+                <router-link :to="{name: 'Course', params: {slug: course.slug}}">Selengkapnya</router-link>
             </div>
         </div>
     </div>

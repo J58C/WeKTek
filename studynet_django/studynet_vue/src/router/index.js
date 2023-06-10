@@ -47,7 +47,6 @@ const routes = [
     name: 'Author',
     component: Author
   },
-
   {
     path: '/dashboard/my-account',
     name: 'MyAccount',
@@ -61,7 +60,7 @@ const routes = [
   ,
   {
     path: '/editor',
-    name: 'IDEEditor',
+    name: 'Editor',
     component: Editor
   }
 ]

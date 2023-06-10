@@ -1,14 +1,14 @@
 <template>
     <form v-on:submit.prevent="submitComment()">
         <div class="field">
-            <label class="label">Name</label>
+            <label class="label">Nama</label>
             <div class="control">
                 <input type="text" class="input" v-model="comment.name" style="background-color: #555; color:whitesmoke">
             </div>
         </div>
 
         <div class="field">
-            <label class="label">Content</label>
+            <label class="label">Isi</label>
             <div class="control">
                 <textarea class="textarea" v-model="comment.content" style="background-color: #555; color:whitesmoke"></textarea>
             </div>
@@ -24,7 +24,7 @@
 
         <div class="field">
             <div class="control">
-                <button class="button is-link"  style="background-color: #555; color:whitesmoke">Submit</button>
+                <button class="button is-link"  style="background-color: #555; color:whitesmoke">Ajukan</button>
             </div>
         </div>
     </form>
