@@ -1,3 +1,3 @@
-# Web-DJKI
+# WeKTek
 
-simulasi tinggal buka run.bat terus tunggu nanti kebuka sendiri browsernya
+Double click run.bat and wait for simulation
