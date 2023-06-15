@@ -1,0 +1,49 @@
+.about {
+  background-color: #111;
+  color: #fff;
+}
+
+.about .hero.is-info {
+  background-color: #222;
+  color: #fff;
+}
+
+.about .title {
+  color: #fff;
+}
+
+.about .subtitle {
+  color: #fff;
+}
+
+.about .button.is-primary {
+  background-color: #00d1b2;
+  color: #fff;
+}
+
+.about .button.is-primary:hover {
+  background-color: #00b89c;
+}
+
+.about .button.is-info {
+  background-color: #209cee;
+  color: #fff;
+}
+
+.about .button.is-info:hover {
+  background-color: #1381b6;
+}
+
+.about .has-background-grey-lighter {
+  background-color: #333;
+}
+
+.about .field label {
+  color: #fff;
+}
+
+.about .field input,
+.about .field textarea {
+  background-color: #fff;
+  color: #111;
+}

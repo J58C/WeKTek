@@ -1,0 +1,40 @@
+.home {
+  background-color: #111;
+  color: #fff;
+}
+
+.home .hero.is-info {
+  background-color: #222;
+  color: #fff;
+}
+
+.home .title,
+.home .subtitle,
+.home .is-size-4,
+.home .box p,
+.home .button.is-info {
+  color: #fff;
+}
+
+.home .icon.is-size-2.has-text-info {
+  color: #fff;
+}
+
+.home .box {
+  background-color: #333;
+}
+
+.home hr {
+  border-top-color: #fff;
+}
+
+.home .column.is-3 {
+  border: 1px solid #fff;
+  background-color: #333;
+  padding: 1rem;
+}
+
+.home .column.is-3 .course-title,
+.home .column.is-3 .course-description {
+  color: #fff;
+}

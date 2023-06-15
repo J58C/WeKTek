@@ -1,0 +1,23 @@
+.about {
+  background-color: #111;
+  color: #fff;
+}
+
+.about .hero.is-info {
+  background-color: #222;
+  color: #fff;
+}
+
+.about .title {
+  color: #fff;
+}
+
+.about .button.is-danger {
+  background-color: #ff3860;
+  color: #fff;
+}
+
+.about .button.is-danger:hover {
+  background-color: #d63152;
+}
+

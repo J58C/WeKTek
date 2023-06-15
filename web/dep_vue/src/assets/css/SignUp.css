@@ -1,0 +1,27 @@
+.signup {
+  background-color: #111;
+  color: #fff;
+}
+
+.signup .hero.is-info {
+  background-color: #222;
+}
+
+.signup .title {
+  color: #fff;
+}
+
+.signup .input {
+  background-color: #333;
+  color: #fff;
+}
+
+.signup .button.is-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.signup .notification.is-danger {
+  background-color: #ff3860;
+  color: #fff;
+}

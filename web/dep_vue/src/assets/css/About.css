@@ -1,0 +1,13 @@
+.about {
+  background-color: #111;
+  color: #fff;
+}
+
+.about .hero.is-info {
+  background-color: #222;
+  color: #fff;
+}
+
+.about .title {
+  color: #fff;
+}
