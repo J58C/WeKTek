@@ -5,14 +5,10 @@
 ## Requirments
 
 ### Install nodejs
-```
-https://nodejs.org/en/download
-```
+<a href="https://nodejs.org/en/download" ></a>
 
 ### Install Python3
-```
-https://www.python.org/downloads/
-```
+<a href="https://www.python.org/downloads/" ></a>
 
 ### pip Library
 ```
