@@ -2,11 +2,18 @@
 
 **** Double click run.bat and wait for website to open ****
 
-##Requirments
+## Requirments
 
-###install nodejs
+### Install nodejs
+```
+https://nodejs.org/en/download
+```
 
-###install Python3
+### Install Python3
+```
+https://www.python.org/downloads/
+```
+
 ```
 pip install django
 ```
