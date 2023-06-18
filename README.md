@@ -1,6 +1,6 @@
 # WeKTek
 
-**** Double click run.bat and wait for website to open ****
+##### Double click run.bat and wait for website to open
 
 ## Requirments
 
@@ -14,6 +14,7 @@ https://nodejs.org/en/download
 https://www.python.org/downloads/
 ```
 
+### pip Library
 ```
 pip install django
 ```
